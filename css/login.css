@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login-page {
+  background-image: url(../images/autumn-leaves-composition.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+}
+
+.company-logo {
+  padding-left: 10px;
+}
+
+.company-logo .logo {
+  height: 60px;
+  width: 200px;
+  margin-left: 30px;
+  margin-top: 30px;
+  background-color: rgba(227, 228, 227, 0.8);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.client-name {
+  margin-left: 20%;
+  margin-top: 20px;
+}
+
+.client-name h1 {
+  color: #bebebe;
+}
+
+.login-form {
+  margin-left: 20%;
+  margin-top: 20px;
+  margin-right: 40%;
+  border: 1px solid #bebebe;
+  border-radius: 5px;
+  padding: 25px;
+}
+
+.login-form label {
+  color: #bebebe;
+  font-size: 20px;
+  width: 100px;
+}
+
+.login-form div {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.module-input-div {
+  margin-bottom: 200px;
+} 
+
+.login-form input {
+  margin-left: 10px;
+  border: none;
+  border-bottom: 2px solid #bebebe;
+  background: transparent;
+  color: #bebebe;
+  width: calc(100% - 110px);
+}
+
+.login-form input:focus {
+  outline: none;
+}
+
+.login-button {
+  background-color: orange;
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 110px;
+  width: 100%;
+}
+
+.login-form .data-input {
+  font-size: 15px;
+}
+
+
+
+
+
+
+

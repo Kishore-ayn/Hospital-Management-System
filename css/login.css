@@ -13,60 +13,54 @@
 }
 
 .company-logo {
-  padding-left: 10px;
+  padding-left: 0.625rem;
 }
 
 .company-logo .logo {
-  height: 60px;
-  width: 200px;
-  margin-left: 30px;
-  margin-top: 30px;
+  height: 1.8rem;
+  width: 6.75rem;
+  margin-left: 1.875rem;
+  margin-top: 1.875rem;
   background-color: rgba(227, 228, 227, 0.8);
-  padding: 10px;
-  border-radius: 5px;
+  padding: 0.625rem;
+  border-radius: 0.313rem;
 }
 
 .client-name {
-  margin-left: 20%;
-  margin-top: 20px;
+  margin-left: 2.5rem;
+  margin-top: 1rem;
+  margin-right: 2.5rem;
 }
 
 .client-name h1 {
   color: #bebebe;
+  font-size: 1rem;
 }
 
 .login-form {
-  margin-left: 20%;
-  margin-top: 20px;
-  margin-right: 40%;
-  border: 1px solid #bebebe;
-  border-radius: 5px;
-  padding: 25px;
+  margin-left: 2.5rem;
+  margin-top: 1.25rem;
+  margin-right: 2.5rem;
+  margin-bottom: 1.25rem;
+  border: 0.063rem solid #bebebe;
+  border-radius: 0.313rem;
+  padding: 1.563rem;
 }
 
-.login-form label {
-  color: #bebebe;
-  font-size: 20px;
-  width: 100px;
-}
 
 .login-form div {
-  margin: 20px;
+  margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
 }
 
-.module-input-div {
-  margin-bottom: 200px;
-} 
 
 .login-form input {
-  margin-left: 10px;
   border: none;
-  border-bottom: 2px solid #bebebe;
+  border-bottom: 0.125rem solid #bebebe;
   background: transparent;
   color: #bebebe;
-  width: calc(100% - 110px);
+  width: 100%;
 }
 
 .login-form input:focus {
@@ -74,20 +68,19 @@
 }
 
 .login-button {
+  display: flex;
   background-color: orange;
   color: #fff;
-  font-weight: 400;
-  font-size: 20px;
+  font-size: 0.9rem;
   border: none;
-  border-radius: 5px;
-  padding: 5px 110px;
-  width: 100%;
+  border-radius: 0.35rem;
+  padding: 0.313rem 2.5rem;
+  width: 50%;
 }
 
 .login-form .data-input {
-  font-size: 15px;
+  font-size: 0.938rem;
 }
-
 
 
 

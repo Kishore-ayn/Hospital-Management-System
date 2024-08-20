@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Billing screen</title>
     <link rel="stylesheet" href="../css/billing.css">
   </head>
@@ -9,7 +12,17 @@
       <div class="header">
 
         <div class="menu-container">
+
           <ul class="total-menu">
+            <div class="logo-container">
+              <img src="../images/vls-logo.png" alt="vls-logo" class="logo">
+            </div>
+            <div class="search-container">
+              <svg class="search-icon" width="16" height="16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001a1.007 1.007 0 0 0-.196.217l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.217-.196zm-5.344 1.621a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z"/>
+              </svg>
+              <input type="text" placeholder="Search (Ctrl + K)" class="search-input">
+            </div>
             <li class="menu-item">
               <a href="#" class="item-link">Masters</a>
               <ul class="dropdown">
@@ -36,16 +49,18 @@
                 <li><a href="#">IP Billing Cancellations</a></li>
                 <li><a href="#">IP Billing Due Collections</a></li>
                 <li><a href="#">IP Discharge</a></li>
+                <li><a href="#">Discharge Summary</a></li>
                 <li><a href="#">Ward Transfer</a></li>
                 <li><a href="#">Doctor Transfer</a></li>
               </ul>
             </li>
+            <div class="profile-container">
+              <img src="../images/profile-image.jpg" alt="profile-img" class="current-user">
+            </div>
           </ul>
+
         </div>
 
-      </div>
-      <div class="sidebar">
-        <img src="../images/vls-logo.png" alt="vls-logo" class="logo">
       </div>
     </div>
   </body>

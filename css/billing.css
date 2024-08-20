@@ -3,7 +3,7 @@ body {
   padding: 0;
   display: flex;
   height: auto;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
 }
 
 .billing-container {
@@ -17,31 +17,11 @@ body {
 .header {
   position: fixed;
   top: 0;
-  left: 15rem;
+  left: 0rem;
   right: 0;
   z-index: 100;
   background-color: antiquewhite;
-  height: 5rem;
-}
-
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  z-index: 200;
-  background-color: antiquewhite;
-  width: 15rem;
-}
-
-.sidebar .logo {
-  height: 3rem;
-  width: 12rem;
-  background-color: rgba(227, 228, 227, 0.8);
-  padding: 0.625rem;
-  border-radius: 0.313rem;
-  margin-left: 1rem;
-  margin-top: 0.5rem;
+  height: 4rem;
 }
 
 .menu-container {
@@ -53,26 +33,74 @@ body {
 .total-menu {
   list-style-type: none;
   display: flex;
+  padding: 0;
+  align-items: center;
 }
+
+
+.logo-container {
+  margin-right: 3rem;
+}
+
+.logo {
+  height: 2.5rem;
+}
+
+
+.search-container {
+  display: flex;
+  position: relative;
+  margin-right: 2rem;
+}
+
+.search-icon {
+  position: absolute;
+  top: 0.49rem;
+  left: 0.5rem;
+  color: #000;
+}
+
+.search-input {
+  border: none;
+  background-color: #fff;
+  height: 2rem;
+  border-radius: 1rem;
+  padding-left: 2rem;
+  padding-top: 0.1rem;
+  font-family: -apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif;
+}
+
+.search-input::placeholder {
+  color: #000;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
 
 .menu-item {
   position: relative;
+  cursor: pointer;
 }
 
 .item-link {
   display: block;
-  padding: 5px 10px;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   font-size: 16px;
   border-radius: 5px;
-  background-color: #011d5b;
   margin-right: 1rem;
-  height: 2.5rem;
+  height: 1.5rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: bold;
 }
 
 .item-link:hover {
-  background-color: #187fd1;
+  background-color: #000;
+  color: #fff;
+  font-weight: normal;
 }
 
 .dropdown {
@@ -104,6 +132,11 @@ background-color: #f1f1f1;
 
 .menu-item:hover .dropdown {
 display: block;
+}
+
+.current-user {
+  height: 2rem;
+  border-radius: 1rem;
 }
 
 
